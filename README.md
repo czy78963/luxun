@@ -14,3 +14,9 @@ iOS client for http://luxun.pro/
 [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 
 [Kingfisher](https://github.com/onevcat/Kingfisher)
+
+## How to build?
+
+```bash
+carthage update --platform ios
+```
