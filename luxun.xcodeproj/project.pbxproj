@@ -11,6 +11,10 @@
 		B279893F1D86DBC200817483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279893E1D86DBC200817483 /* ViewController.swift */; };
 		B27989421D86DBC200817483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27989401D86DBC200817483 /* Main.storyboard */; };
 		B27989441D86DBC200817483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27989431D86DBC200817483 /* Assets.xcassets */; };
+		B2F9D7B71D86FEEE000B38A5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F9D7B61D86FEEE000B38A5 /* Alamofire.framework */; };
+		B2F9D7B91D86FEF1000B38A5 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F9D7B81D86FEF1000B38A5 /* Kingfisher.framework */; };
+		B2F9D7BB1D86FEF4000B38A5 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F9D7BA1D86FEF4000B38A5 /* SnapKit.framework */; };
+		B2F9D7BD1D86FEF8000B38A5 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F9D7BC1D86FEF8000B38A5 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		B27989411D86DBC200817483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B27989431D86DBC200817483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B27989481D86DBC200817483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F9D7B61D86FEEE000B38A5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B2F9D7B81D86FEF1000B38A5 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		B2F9D7BA1D86FEF4000B38A5 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		B2F9D7BC1D86FEF8000B38A5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +35,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F9D7B71D86FEEE000B38A5 /* Alamofire.framework in Frameworks */,
+				B2F9D7B91D86FEF1000B38A5 /* Kingfisher.framework in Frameworks */,
+				B2F9D7BB1D86FEF4000B38A5 /* SnapKit.framework in Frameworks */,
+				B2F9D7BD1D86FEF8000B38A5 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +48,10 @@
 		B27989301D86DBC200817483 = {
 			isa = PBXGroup;
 			children = (
+				B2F9D7BC1D86FEF8000B38A5 /* SwiftyJSON.framework */,
+				B2F9D7BA1D86FEF4000B38A5 /* SnapKit.framework */,
+				B2F9D7B81D86FEF1000B38A5 /* Kingfisher.framework */,
+				B2F9D7B61D86FEEE000B38A5 /* Alamofire.framework */,
 				B279893B1D86DBC200817483 /* luxun */,
 				B279893A1D86DBC200817483 /* Products */,
 			);
@@ -135,10 +151,10 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Snapkit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Snapkit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			name = "Run Script";
 			outputPaths = (
@@ -311,6 +327,7 @@
 				B279894D1D86DBC200817483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
