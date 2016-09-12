@@ -2,15 +2,15 @@
 iOS client for http://luxun.pro/
 
 ## Technical stack
-[`Swift`](https://swift.org/download/)
+[Swift](https://swift.org/download/)
 
-[`Carthage`](https://github.com/Carthage/Carthage)
+[Carthage](https://github.com/Carthage/Carthage)
 
 ## Relevant third-party lib:
-[`Snapkit`](https://github.com/SnapKit/SnapKit)
+[Snapkit](https://github.com/SnapKit/SnapKit)
 
-[`Alamofire`](https://github.com/Alamofire/Alamofire)
+[Alamofire](https://github.com/Alamofire/Alamofire)
 
-[`SwiftyJSON`](https://github.com/SwiftyJSON/SwiftyJSON)
+[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 
-[`Kingfisher`](https://github.com/onevcat/Kingfisher)
+[Kingfisher](https://github.com/onevcat/Kingfisher)
